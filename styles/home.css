@@ -12,23 +12,12 @@ header {
   align-items: center;
 }
 
-
-.img_logo {
-  width: 150px;
-  height: auto;
-  grid-area: img;
-}
-
-.img_logo:hover {
-  cursor: pointer;
-}
-
 /* ----- section.banner 관련 요소 ----- */
 .banner-top-wrap,
 .banner-bottom-wrap {
   width: 100%;
   height: 540px;
-  background-color: #CFE5FF;
+  background-color: #cfe5ff;
   display: flex;
   justify-content: center;
 }
@@ -76,7 +65,7 @@ header {
 .promotion-title span {
   font-weight: 700;
   line-height: 26px;
-  color: #3692FF;
+  color: #3692ff;
 }
 
 .promotion-title h1 {
@@ -90,7 +79,6 @@ header {
   line-height: 28.8px;
   color: #374151;
 }
-
 
 /* ----- Media Query ----- */
 @media (min-width: 375px) {
@@ -245,7 +233,6 @@ header {
 
 /* Desktop */
 @media (min-width: 1280px) {
-
   .banner-top-wrap,
   .banner-bottom-wrap {
     height: 540px;

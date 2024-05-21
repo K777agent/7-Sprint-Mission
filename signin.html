@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>로그인</title>
     <link rel="icon" href="image/logo/favicon.ico" />
     <link rel="stylesheet" href="styles/global.css" />
@@ -13,15 +13,17 @@
     <div class="auth-container">
       <div class="logo-home-wrapper">
         <a href="index.html" rel="noreferrer noopener">
-          <img src="image/logo/logo.png" alt="판다마켓 홈" class="img-auth-logo">
+          <img
+            src="image/logo/logo.png"
+            alt="판다마켓 홈"
+            class="img-auth-logo"
+          />
         </a>
       </div>
 
       <form id="signInForm" method="post">
         <div class="input-items">
-          <label for="email">
-            이메일
-          </label>
+          <label for="email"> 이메일 </label>
           <input
             id="email"
             name="email"
@@ -37,9 +39,7 @@
         </div>
 
         <div class="input-items">
-          <label for="password">
-            비밀번호
-          </label>
+          <label for="password"> 비밀번호 </label>
           <div class="password">
             <input
               id="password"
@@ -47,7 +47,11 @@
               type="password"
               placeholder="비밀번호를 입력해주세요"
             />
-            <button type="button" class="toggle-password" onclick="togglePassword('password')">
+            <button
+              type="button"
+              class="toggle-password"
+              onclick="togglePassword('password')"
+            >
               <img src="image/icon/eye-none.png" alt="비밀번호 숨기기" />
             </button>
           </div>
@@ -66,16 +70,25 @@
       <div class="social-login">
         <h2>간편 로그인하기</h2>
         <div class="social-login-btns">
-          <a href="http://www.google.com" target="_blank" rel="noreferrer noopener">
-            <img src="image/social/google.png" alt="구글 로그인" width="42">
+          <a
+            href="http://www.google.com"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src="image/social/google.png" alt="구글 로그인" width="42" />
           </a>
-          <a href="http://www.kakaocorp.com/page/" target="_blank" rel="noreferrer noopener">
-            <img src="image/social/kakao.png" alt="카카오 로그인" width="42">
+          <a
+            href="http://www.kakaocorp.com/page/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img src="image/social/kakao.png" alt="카카오 로그인" width="42" />
           </a>
         </div>
       </div>
       <div class="auth-switch">
-        판다마켓이 처음인 가요? <a href="signup.html" rel="noreferrer noopener">회원가입</a>
+        판다마켓이 처음이신가요?
+        <a href="signup.html" rel="noreferrer noopener">회원가입</a>
       </div>
     </div>
     <script src="script/auth.js"></script>

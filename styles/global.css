@@ -15,15 +15,25 @@
 
   /* Primary color */
   --white: #ffffff;
-  --red: #f74747
+  --red: #f74747;
 }
 * {
   box-sizing: border-box;
   border: none;
 }
 
+.img_logo {
+  width: 150px;
+  height: auto;
+  grid-area: img;
+}
+
+.img_logo:hover {
+  cursor: pointer;
+}
+
 body {
-  font-family: "Pretendard", sans-serif;
+  font-family: 'Pretendard', sans-serif;
   margin: 0 auto;
 }
 
