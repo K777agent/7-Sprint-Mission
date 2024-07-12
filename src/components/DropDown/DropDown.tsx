@@ -32,7 +32,7 @@ const DropDown: React.FC<DropDownProps> = ({ options, setOption }) => {
       onClick={() => setIsDrop(!isDrop)}
     >
       <div className={styles.dropDownButton}>
-        <div>{selectedKey || '최신순'}</div>
+        <div>{selectedKey || `최신순`}</div>
         <div>
           <Image
             src={arrowDownIcon}
